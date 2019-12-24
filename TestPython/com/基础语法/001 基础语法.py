@@ -68,3 +68,25 @@ print(str[0:-1])  # 输出第一个到倒数第二个的所有字符
 print(str[0])  # 输出字符串第一个字符
 print(str[2:5])  # 输出从第三个开始到第五个的字符
 print(str[2:])  # 输出从第三个开始后的所有字符
+
+# ---- 输入 ----
+# a = input("请输入一个值：")
+# print(type(a))
+
+# ----  输出 ----
+y = 'hello'
+z = "中国"
+print(y, z)
+# sep = 分隔符 ,end代表结尾的字符，默认是\n
+print(y, z, sep=" *** ", end='')
+print()
+# ---- import 与 from...import ----
+import sys
+from sys import argv, path
+
+print(argv)
+print(path)
+
+# ---- ----
+help(sys)
+
